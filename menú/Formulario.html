@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/Formulario.css" />
+    <title>RESERVAS</title>
+  </head>
+  <body>
+    <nav>
+      <img src="../IMAGENES/Mozza-Bar-Logo.png" alt="AQUI VA UN LOGO" />
+      <ul>
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="/menú/concepto.html">Concepto</a>
+        </li>
+        <li>
+          <a href="/menú/fotos.html">Fotos</a>
+        </li>
+        <li>
+          <a href="/menú/menu.html">Menú</a>
+        </li>
+        <li>
+          <a href="/menú/Formulario.html">Reservas</a>
+        </li>
+        <li>
+          <a href="./menú/Blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="/menú/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Reservas</h1>
+    <section>
+      <div class="reservation-form">
+        <form action="https://reqres.in/api/users" method="post">
+          <label for="Personas">Personas</label>
+          <select name="cantidad-personas" id="Personas">
+            <option value="2">2 Personas</option>
+            <option value="4">4 Personas</option>
+            <option value="6">6 Personas</option>
+            <option value="8">8 Personas</option>
+            <option value="10">10 Personas</option>
+          </select>
+          <label for="hora">Hora</label>
+          <select name="hora" id="hora">
+            <option value="16">16</option>
+            <option value="16:30">16:30</option>
+            <option value="17">17</option>
+            <option value="17:30">17:30</option>
+            <option value="18">18</option>
+            <option value="18:30">18:30</option>
+            <option value="19">19</option>
+            <option value="19:30">19:30</option></select>
+          <label for="tipo-de-mesa">Tipo de mesa</label>
+          <select name="mesa" id="tipo-de-mesa">
+            <option value="terraza">Terraza</option>
+            <option value="dentro">Dentro</option></select>
+          <button>Reservar</button>
+        </form>
+        <h2>
+          Si no encuentra disponibilidad,<br />puede apuntarse en lista de
+          espera
+        </h2>
+        <button>Lista de espera</button>
+        <button>Solicitud de grupo</button>
+      </div>
+      <div class="address">
+        <h2>Nombre del bar</h2>
+        <p>
+          Con de Peñalver 64<br />28006 - Madrid<br />Abrimos de lunes a
+          domingo<br />de 12:00 a 1:30
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

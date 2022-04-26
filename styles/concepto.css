@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #02152b;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav img {
+    width: auto;
+    padding-left: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 30px 20px 0 0;
+}
+
+section {
+    /* background-image: url("/IMAGENES/pexels-photo-1064136.jpeg");  */
+    background-image: url("../IMAGENES/papel-pintado-palmeras-gris.jpg");
+    max-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 450px;
+    line-height: 1.5;
+    background-color: #02152b;
+    border-radius: 3%;
+    padding: 10px;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightskyblue
+}
+
+div h1 {
+    text-align: center;
+}
+
+div p {
+    text-align: justify;
+}
